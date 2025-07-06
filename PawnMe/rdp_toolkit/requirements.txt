@@ -1,0 +1,3 @@
+# For RDP and SMB functionality, install as needed
+pysmb
+smbprotocol 
